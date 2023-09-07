@@ -1,0 +1,170 @@
+#project{
+
+    background-image: url("3.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    }
+    
+    
+    .logo{
+        height: 70px;
+        width: 72px;
+        
+    margin: 15px 0px 55px 30px;
+    border: 5px solid white;
+    border-radius: 19%;
+    padding: 25px;
+    }
+    
+    
+    .header{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 3%;
+        margin-right:  30%;
+    
+        }
+    .h1{
+    
+        color: rgb(166, 231, 13);
+        font-size: 250%;
+        border: 5px solid red;
+        border-radius: 0px 0px 10px 0px;
+    }
+    .motivation{
+        background-color: rgb(0, 0, 0);
+        color: white;
+    font-family: fantasy;
+    font-style: oblique;
+    font-size: 120%;
+    text-align: center;
+    border: 3px solid rgb(245, 194, 194);
+    padding: 15px;
+    border-radius: 40px 0px 40px 0px;
+    margin: 70px 70px 150px 100px;
+    
+    }
+    .name{
+        color: darkorchid;
+        font-size: 400%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border: 2px dashed black;
+        text-align: center;
+        border-radius: 0px 50px 0px 50px;
+        margin: 200px;
+        padding: 20px;
+    }
+    .data
+    {
+    
+    font-size: 30px;
+    color: red;
+    
+    }
+    .header-port a
+    {
+     font-size: 150%;
+     color: rgb(255, 255, 255);
+     border: linen solid 2px;
+     border-radius: 19px;
+     background: rgb(1,0,13);
+     background: linear-gradient(23deg, rgba(1,0,13,1) 0%, rgba(121,9,85,0.8547794117647058) 35%, rgba(86,92,173,1) 77%, rgba(239,11,115,0.9724264705882353) 100%);
+    margin-left: 36px;
+    padding: 11px;
+    text-decoration: none;
+    }
+    .repeat-header{
+        margin-top: 30px;
+        
+    }
+    .bar a{
+        font-size: 150%;
+        color: rgb(255, 255, 255);
+      
+        padding: 20px;
+       text-decoration: none;
+       margin: 0px;
+    
+    }
+    .bar{
+        position: absolute;
+        right: 0%;
+        margin-right: 30px;
+        margin-top: -133px;
+        background: rgb(1,0,13);
+        background: linear-gradient(23deg, rgba(1,0,13,1) 0%, rgba(121,9,85,0.8547794117647058) 35%, rgba(86,92,173,1) 77%, rgba(239,11,115,0.9724264705882353) 100%);
+        padding: 10px;
+        border: 5px solid rgb(236, 125, 33);
+        border-radius: 30px 0px 0px 10px;
+    }
+    
+    .image-slide{
+    
+    margin-top: 10px;
+    
+    }
+    .next-page{
+    background-color: aliceblue;
+    
+    width: 5;
+    margin-right: 390px;
+    margin-left: 370px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 25px;
+    
+    border: 3px dashed rgb(235, 157, 13);
+    border-radius: 26px;
+    
+    }
+    .next-page a{
+        text-decoration: none;
+    
+    
+    }
+    .solution{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    margin-left: 35px;
+    }
+    .get{
+    
+    margin: 150px;
+    font-size: 25px;
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgb(109, 5, 245);
+    padding: 25px;
+    border: solid 3px rgb(7, 7, 7);
+    border-radius: 25px;
+    
+    }
+    #service{
+     
+        color: rgb(59, 59, 59);
+         font-size: 150%;
+    
+    }
+    #service:hover{
+    
+        color: blue;
+        font-size: 300%;
+    }
+    .solution-soft:hover{
+        font-size: 40px;
+        color: red;
+    }
+    
+    .img-ho{
+    
+    color: rgb(61, 62, 63);
+    float: left;
+    
+    }
+    /* .img-ho:hover{ */
+    
+        /* height: 500px; */
+        /* width: 500px; */
+    /* } */
