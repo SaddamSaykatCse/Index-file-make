@@ -1,6 +1,7 @@
     .background-image{
         background-image: url(Image/wall.jpg);
         opacity: 110%;
+        border-radius: 30px;
     }
     .port-head{
 
@@ -16,8 +17,8 @@
         /* padding: 2%; */
     }
     .canvas img{
-        margin-top: 15%;
-        width: 160%;
+        margin-top: -11%;
+        width: 157%;
     }
     .text{
         margin-left: 2%;
@@ -73,3 +74,15 @@
 color: wheat;
 
     }
+    #journey-of-software-engineer{
+
+        margin-left: 59%;
+        margin-top: -563px;
+    }
+
+.image-value img{
+width: 71%;
+/* margin-right: 60%; */
+margin: 20px;
+}
+    
