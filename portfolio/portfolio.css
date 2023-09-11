@@ -24,12 +24,43 @@
         margin-left: 2%;
         padding: 5%;
     }
+
+
+
+
+
+
+
     .paragraph-myself
     {
     font-size: 40px;
     padding: 5%;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+
+ animation: 
+    typing 2s ,
+    blink-caret .4s step-end infinite alternate;
 
     }
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes cursor {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+
+
+
+
+
     .wel-hover{
         font-size: 25px;
         color: blueviolet;
@@ -56,8 +87,8 @@
     }
     .button-nav{
 
-        margin-left: 773px;
-        margin-right: 79px;
+        margin-left: 568px;
+        margin-right: 161px;
         margin-top: 30px;
         padding: 1%;
         font-size: 20px;
@@ -78,6 +109,7 @@ color: wheat;
 
         margin-left: 59%;
         margin-top: -563px;
+        color: rgb(0, 0, 0);
     }
 
 .image-value img{
@@ -86,3 +118,59 @@ width: 71%;
 margin: 20px;
 }
     
+
+.half-width-a{
+    width: 40%;
+    height: 250px;
+    background-color: rgb(0, 195, 255);
+    color: rgb(255, 255, 255);
+    float: left;
+    margin-right: -12px;
+    padding: 30px;
+    margin-top: 130px;
+        margin-left: 40px;
+box-shadow: 10px 11px 8px 0px rgba(10,10,10,0.75);
+-webkit-box-shadow: 10px 11px 8px 0px rgba(10,10,10,0.75);
+-moz-box-shadow: 10px 11px 8px 0px rgba(10,10,10,0.75);
+border-left: rgb(255, 0, 140) solid 5px;
+border-radius: 0px 0px 0px 20px;
+
+}
+.half-width-b{
+    width: 40%;
+    height: 250px;
+    background-color: black;
+    color: wheat;
+    margin-right: 10px;
+    float: left;
+    padding: 30px;
+    margin-left: 53%;
+    margin-top: -314px;
+    box-shadow: 10px 11px 8px 0px rgba(10,10,10,0.75);
+-webkit-box-shadow: 10px 11px 8px 0px rgba(10,10,10,0.75);
+-moz-box-shadow: 10px 11px 8px 0px rgba(10,10,10,0.75);
+border-left: blue solid 5px;
+border-radius: 0px 20px 0px 0px;
+
+}
+.half-width{
+
+color: black;
+float: left;
+margin-right: 20%;
+margin-left: 19%;
+}
+
+
+
+#wow{
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 500px;
+    text-align: center;
+    border: linen solid 3px;
+
+}
+#wow a{
+text-decoration: none;
+}
