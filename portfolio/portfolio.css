@@ -1,26 +1,30 @@
-    .background-image{
+    .background-image {
         background-image: url(Image/wall.jpg);
         opacity: 110%;
         border-radius: 30px;
     }
-    .port-head{
 
-    float: left;
-
-    }
-    .canvas{
+    .port-head {
 
         float: left;
-        
+
+    }
+
+    .canvas {
+
+        float: left;
+
         width: 40%;
         /* margin: 5%; */
         /* padding: 2%; */
     }
-    .canvas img{
+
+    .canvas img {
         margin-top: -11%;
         width: 157%;
     }
-    .text{
+
+    .text {
         margin-left: 2%;
         padding: 5%;
     }
@@ -31,46 +35,59 @@
 
 
 
-    .paragraph-myself
-    {
-    font-size: 40px;
-    padding: 5%;
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
+    .paragraph-myself {
+        font-size: 40px;
+        padding: 5%;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
 
- animation: 
-    typing 2s ,
-    blink-caret .4s step-end infinite alternate;
+        animation:
+            typing 2s,
+            blink-caret .4s step-end infinite alternate;
 
     }
 
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
+    @keyframes typing {
+        from {
+            width: 0
+        }
+
+        to {
+            width: 100%
+        }
+    }
 
 
-@keyframes cursor {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
+    @keyframes cursor {
+
+        from,
+        to {
+            border-color: transparent
+        }
+
+        50% {
+            border-color: orange;
+        }
+    }
 
 
 
 
 
 
-    .wel-hover{
+    .wel-hover {
         font-size: 25px;
         color: blueviolet;
     }
-    .wel-hover:hover{
+
+    .wel-hover:hover {
         font-size: 40px;
         color: azure;
-        
+
     }
-    .read{
+
+    .read {
         font-size: 25px;
         color: white;
         text-shadow: 2px;
@@ -81,96 +98,112 @@
         padding: 2%;
         border-radius: 5px;
     }
-    .read a{
+
+    .read a {
         color: white;
         text-decoration: solid;
     }
-    .button-nav{
+
+    .button-nav {
 
         margin-left: 568px;
         margin-right: 161px;
         margin-top: 30px;
         padding: 1%;
         font-size: 20px;
-        background: rgb(76,65,209);
-        background: linear-gradient(23deg, rgba(76,65,209,1) 0%, rgba(1,4,36,0.8547794117647058) 35%, rgba(86,92,173,0.9612219887955182) 68%, rgba(244,0,111,0.9724264705882353) 92%);
+        background: rgb(76, 65, 209);
+        background: linear-gradient(23deg, rgba(76, 65, 209, 1) 0%, rgba(1, 4, 36, 0.8547794117647058) 35%, rgba(86, 92, 173, 0.9612219887955182) 68%, rgba(244, 0, 111, 0.9724264705882353) 92%);
         border: 2px;
         border-radius: 20px;
         font-weight: 700;
     }
-    .button-nav a{
+
+    .button-nav a {
         text-decoration: none;
         font-size: 30px;
         padding: 8px;
-color: wheat;
+        color: wheat;
 
     }
-    #journey-of-software-engineer{
+
+    #journey-of-software-engineer {
 
         margin-left: 59%;
         margin-top: -563px;
         color: rgb(0, 0, 0);
     }
 
-.image-value img{
-width: 71%;
-/* margin-right: 60%; */
-margin: 20px;
-}
-    
+    .image-value img {
+        width: 71%;
+        /* margin-right: 60%; */
+        margin: 20px;
+    }
 
-.half-width-a{
-    width: 40%;
-    height: 250px;
-    background-color: rgb(0, 195, 255);
-    color: rgb(255, 255, 255);
-    float: left;
-    margin-right: -12px;
-    padding: 30px;
-    margin-top: 130px;
+
+    .half-width-a {
+        width: 40%;
+        height: 250px;
+        background-color: rgb(0, 195, 255);
+        color: rgb(255, 255, 255);
+        float: left;
+        margin-right: -12px;
+        padding: 30px;
+        margin-top: 130px;
         margin-left: 40px;
-box-shadow: 10px 11px 8px 0px rgba(10,10,10,0.75);
--webkit-box-shadow: 10px 11px 8px 0px rgba(10,10,10,0.75);
--moz-box-shadow: 10px 11px 8px 0px rgba(10,10,10,0.75);
-border-left: rgb(255, 0, 140) solid 5px;
-border-radius: 0px 0px 0px 20px;
+        box-shadow: 10px 11px 8px 0px rgba(10, 10, 10, 0.75);
+        -webkit-box-shadow: 10px 11px 8px 0px rgba(10, 10, 10, 0.75);
+        -moz-box-shadow: 10px 11px 8px 0px rgba(10, 10, 10, 0.75);
+        border-left: rgb(255, 0, 140) solid 5px;
+        border-radius: 0px 0px 0px 20px;
 
-}
-.half-width-b{
-    width: 40%;
-    height: 250px;
-    background-color: black;
-    color: wheat;
-    margin-right: 10px;
-    float: left;
-    padding: 30px;
-    margin-left: 53%;
-    margin-top: -314px;
-    box-shadow: 10px 11px 8px 0px rgba(10,10,10,0.75);
--webkit-box-shadow: 10px 11px 8px 0px rgba(10,10,10,0.75);
--moz-box-shadow: 10px 11px 8px 0px rgba(10,10,10,0.75);
-border-left: blue solid 5px;
-border-radius: 0px 20px 0px 0px;
+    }
 
-}
-.half-width{
+    .half-width-b {
+        width: 40%;
+        height: 250px;
+        background-color: black;
+        color: wheat;
+        margin-right: 10px;
+        float: left;
+        padding: 30px;
+        margin-left: 53%;
+        margin-top: -314px;
+        box-shadow: 10px 11px 8px 0px rgba(10, 10, 10, 0.75);
+        -webkit-box-shadow: 10px 11px 8px 0px rgba(10, 10, 10, 0.75);
+        -moz-box-shadow: 10px 11px 8px 0px rgba(10, 10, 10, 0.75);
+        border-left: blue solid 5px;
+        border-radius: 0px 20px 0px 0px;
 
-color: black;
-float: left;
-margin-right: 20%;
-margin-left: 19%;
-}
+    }
+
+    .half-width {
+
+        color: black;
+        float: left;
+        margin-right: 20%;
+        margin-left: 19%;
+    }
 
 
 
-#wow{
-    text-decoration: none;
-    font-size: 25px;
-    margin-top: 500px;
-    text-align: center;
-    border: linen solid 3px;
+    #wow {
+        text-decoration: none;
+        font-size: 25px;
+        margin-top: 500px;
+        text-align: center;
+        border: linen solid 3px;
 
-}
-#wow a{
-text-decoration: none;
-}
+    }
+
+    #wow a {
+        text-decoration: none;
+    }
+
+    .ruler {
+
+        width: 500px;
+        height: 10px;
+        color: black;
+
+
+    }
