@@ -1,0 +1,94 @@
+.bg-color {
+    background-color: #1a2b3c;
+
+
+}
+
+.amic {
+
+    color: white;
+    margin-left: 40%;
+}
+
+#form {
+    background-color: aliceblue;
+    margin-left: 31%;
+    margin-top: 5%;
+    padding: 2%;
+    margin-right: 23%;
+    border: #1a2b3c 2px solid;
+    border-radius: 10px;
+}
+
+
+#name {
+    display: block;
+    width: 80%;
+    padding: 1%;
+    margin-top: 3%;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+#email {
+
+    display: block;
+    width: 80%;
+    padding: 1%;
+    margin-top: 3%;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+#Gender {
+
+    display: block;
+    width: 24%;
+    padding: 1%;
+    margin-top: -2%;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.Gender {
+
+    color: rgb(10, 10, 10);
+}
+
+#password {
+
+    display: block;
+    width: 80%;
+    padding: 1%;
+    margin-top: 5%;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+#submit {
+    display: block;
+    width: 38%;
+    padding: 1%;
+    margin-top: 5%;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-left: 30%;
+}
+
+#number {
+    display: block;
+    width: 80%;
+    padding: 1%;
+    margin-top: 5%;
+    border-radius: 25px;
+    font-size: 20px;
+
+
+}
+
+#img-icon {
+
+    width: 17%;
+    margin-left: 40%;
+    border-radius: 20%;
+}
