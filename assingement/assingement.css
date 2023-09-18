@@ -67,7 +67,7 @@
 }
 
 h1 {
-    margin-left: 25%;
+    text-align: center;
 
 }
 
@@ -106,21 +106,28 @@ h1 {
 
 .heda {
 
-    /* padding: 5% 18%; */
-    cursor: pointer;
+
     background: transparent;
-    border: 0;
-    outline: none;
-    border: 1px solid #e77373;
-    height: 45px;
-    width: 200px;
+
+    border: 2px solid #060606;
+    height: 4%;
+    width: 80%;
     text-align: center;
     margin: 0 auto;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 10px;
+}
+
+.hed_a {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(23deg, rgba(0, 0, 0, 1) 0%, rgba(181, 117, 191, 0.8547794117647058) 0%, rgba(123, 230, 198, 1) 0%, rgba(151, 101, 186, 0.989233193277311) 0%, rgba(255, 0, 222, 1) 100%, rgba(21, 117, 64, 1) 100%, rgba(29, 160, 87, 1) 100%);
+
+    color: aliceblue;
 }
 
 .heda a {
-    border: 1px solid black;
-    background: #e77373;
-    padding: 10px;
-    margin-top: 10%;
+    padding: 12px;
+    text-decoration: none;
 }
