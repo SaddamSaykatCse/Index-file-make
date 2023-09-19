@@ -123,11 +123,13 @@ h1 {
 .hed_a {
     background: rgb(0, 0, 0);
     background: linear-gradient(23deg, rgba(0, 0, 0, 1) 0%, rgba(181, 117, 191, 0.8547794117647058) 0%, rgba(123, 230, 198, 1) 0%, rgba(151, 101, 186, 0.989233193277311) 0%, rgba(255, 0, 222, 1) 100%, rgba(21, 117, 64, 1) 100%, rgba(29, 160, 87, 1) 100%);
-
+    font-size: 20px;
     color: aliceblue;
+
 }
 
 .heda a {
     padding: 12px;
     text-decoration: none;
+    font-size: 20px;
 }
