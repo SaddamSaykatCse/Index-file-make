@@ -76,3 +76,4 @@ var array = [15, 17, 21, 51, 52, 53];
 console.log(array[2]);
 array[4] = 1050;
 console.log(array);
+
